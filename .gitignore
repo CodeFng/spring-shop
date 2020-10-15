@@ -5,3 +5,6 @@
 /business-service/business-order-service/target/
 /business-service/business-pay-service-feign/target/
 /smart-common/redis-spring-boot-server/target/
+
+
+/.idea/
