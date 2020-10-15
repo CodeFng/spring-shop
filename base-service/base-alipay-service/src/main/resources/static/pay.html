@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.app.pay&sign=Gw%2Bo8WyPwTKu7Pg27b8mOpkIyRjGpG4EmI46SswchtBmKT9RndOQFZSdqL7XgpZJaf6wMrLSoH8dPwhspLvJSHQ6czJ3pQgbjdKs9op3HECCOC%2FdbT1doXrTHu3RY8puIKiQ3Kawyi5s%2F7m8eeSHuZLeWxJnQBHZEsC%2F4VSxqSNVMJXPz1IS3nWaypYZwkk3KirdGxbFWTT1AtxYZjTMrFwVX3tEfSaDo%2FB%2Bh85UAgETokbHQJcrNSTAieFrtXzEUhLvETy0L8FZ1K56uMogV3E%2F7%2Be1Ic9KPp%2BRDKF2nS9A99FRwJkZEGE%2FK7D5zn3eFIritmvz11bQTaQcH4udzA%3D%3D&version=1.0&app_id=2016072900120438&sign_type=RSA2&timestamp=2020-09-01+15%3A30%3A03&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+    <input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;1111&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;,&quot;subject&quot;:&quot;smart-1111&quot;,&quot;timeout_express&quot;:&quot;30m&quot;,&quot;total_amount&quot;:&quot;1.00&quot;}">
+    <input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+</body>
+</html>

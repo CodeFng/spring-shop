@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/base-service/base-alipay-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-service/base-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-service/base-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-service/base-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-service/base-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-service/base-store-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business-service/business-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business-service/business-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business-service/business-pay-service-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart-common/common-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smart-common/redis-spring-boot-server/src/main/java" charset="UTF-8" />
+  </component>
+</project>

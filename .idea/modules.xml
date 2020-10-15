@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-service/base-alipay-service/base-alipay-service.iml" filepath="$PROJECT_DIR$/base-service/base-alipay-service/base-alipay-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-service/base-cart-service/base-cart-service.iml" filepath="$PROJECT_DIR$/base-service/base-cart-service/base-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-service/base-order-service/base-order-service.iml" filepath="$PROJECT_DIR$/base-service/base-order-service/base-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-service/base-service.iml" filepath="$PROJECT_DIR$/base-service/base-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-service/base-service-api/base-service-api.iml" filepath="$PROJECT_DIR$/base-service/base-service-api/base-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-service/base-store-service/base-store-service.iml" filepath="$PROJECT_DIR$/base-service/base-store-service/base-store-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-service/business-order-service/business-order-service.iml" filepath="$PROJECT_DIR$/business-service/business-order-service/business-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-service/business-pay-service-feign/business-pay-service-feign.iml" filepath="$PROJECT_DIR$/business-service/business-pay-service-feign/business-pay-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-service/business-service.iml" filepath="$PROJECT_DIR$/business-service/business-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-common/common-spring-boot-starter/common-spring-boot-starter.iml" filepath="$PROJECT_DIR$/smart-common/common-spring-boot-starter/common-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-common/redis-spring-boot-server/redis-spring-boot-server.iml" filepath="$PROJECT_DIR$/smart-common/redis-spring-boot-server/redis-spring-boot-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart-common/smart-common.iml" filepath="$PROJECT_DIR$/smart-common/smart-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-shop.iml" filepath="$PROJECT_DIR$/spring-shop.iml" />
+    </modules>
+  </component>
+</project>

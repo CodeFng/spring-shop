@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smart.store.mapper.TbStoreProductMapper">
+  <resultMap id="BaseResultMap" type="com.smart.store.entity.TbStoreProduct">
+    <!--@mbg.generated-->
+    <!--@Table tb_store_product-->
+    <id column="store_id" jdbcType="INTEGER" property="storeId" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="w_id" jdbcType="SMALLINT" property="wId" />
+    <result column="current_quantity" jdbcType="INTEGER" property="currentQuantity" />
+    <result column="lock_quantity" jdbcType="INTEGER" property="lockQuantity" />
+    <result column="modified_time" jdbcType="TIMESTAMP" property="modifiedTime" />
+  </resultMap>
+    <update id="updateQuantityByProductId"></update>
+    <select id="query" resultType="com.smart.api.dto.order.CartDto">
+
+      select store_id, product_id, w_id, current_quantity, lock_quantity, modified_time
+      from tb_store_product
+      where store_id in (#{store})
+
+    </select>
+</mapper>

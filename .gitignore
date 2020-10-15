@@ -1,0 +1,7 @@
+# Project exclude paths
+/base-service/base-order-service/target/
+/base-service/base-service-api/target/
+/base-service/base-store-service/target/
+/business-service/business-order-service/target/
+/business-service/business-pay-service-feign/target/
+/smart-common/redis-spring-boot-server/target/

@@ -1,0 +1,12 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: business-pay-service-zjf
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.106.185.155:8848
+feign:
+  okhttp:
+    enabled: true
